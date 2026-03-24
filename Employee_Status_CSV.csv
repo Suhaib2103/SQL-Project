@@ -1,0 +1,511 @@
+Employee_ID,Employee_Name,Manager_ID,Country,Department,Experience_Years,Technical_Skill_Score,Communication_Score,Training_Hours,Projects_Completed,Avg_Weekly_Work_Hours,Productivity_Score,Salary_USD
+001,Charlie Williams,000,UK,Data Science,5,92,85,120,18,42,88,85000
+002,Charlie Rodriguez,488,Canada,Machine Learning,3,89,78,90,15,45,82,78000
+003,Laura Wilson,423,Canada,Data Analysis,2,75,80,70,10,40,76,62000
+004,Michael Moore,000,Canada,Data Engineering,6,95,88,150,22,44,91,92000
+005,Kevin Lee,091,India,BI & Analytics,4,82,90,110,16,41,85,78000
+006,Charlie Rodriguez,488,Canada,Data Science,1,70,75,60,8,38,70,55000
+007,Kevin Thomas,495,USA,Machine Learning,7,96,84,160,25,46,93,98000
+008,Paula Lopez,423,India,Data Engineering,3,85,79,100,14,43,81,76000
+009,Victor Smith,222,Canada,BI & Analytics,5,87,92,130,19,40,88,83000
+010,Laura Davis,091,Germany,Data Science,4,90,86,115,17,42,87,87000
+011,Laura Thomas,001,France,BI & Analytics,3,69,96,158,22,41,82,74358
+012,Quinn Davis,488,Australia,BI & Analytics,3,66,69,109,21,43,65,73726
+013,Samuel Anderson,423,UK,Data Engineering,4,63,72,156,18,39,65,75116
+014,Samuel Johnson,065,France,Data Analysis,14,86,66,80,23,42,79,107705
+015,Paula Martin,035,Australia,Data Engineering,13,87,62,105,12,43,71,104943
+016,Hannah Moore,091,UK,Data Analysis,14,80,98,40,11,42,91,108343
+017,Paula White,380,USA,Data Analysis,3,76,75,76,19,46,78,76084
+018,Wendy Williams,381,Germany,Data Engineering,8,93,90,158,14,50,86,90899
+019,Michael Lopez,381,UK,Data Engineering,11,98,62,50,19,37,77,101700
+020,Ivan Williams,380,Canada,Data Engineering,13,73,67,122,30,40,70,105394
+021,Zack Perez,199,UK,Machine Learning,13,92,78,199,6,42,87,106290
+022,Hannah White,091,Germany,Machine Learning,14,81,69,104,12,45,76,109227
+023,Michael Garcia,091,USA,Data Analysis,2,94,75,91,21,41,83,74484
+024,Yara Thompson,380,Germany,Machine Learning,12,71,99,194,6,46,85,100777
+025,Hannah Rodriguez,502,Canada,Data Analysis,3,73,86,192,13,42,84,71840
+026,Julia Gonzalez,340,Japan,Data Engineering,9,66,66,74,15,36,70,90002
+027,Charlie Lee,502,Germany,Data Engineering,12,88,64,95,10,38,71,104090
+028,Ethan Davis,091,USA,Machine Learning,6,73,76,191,18,48,69,80667
+029,Laura Lopez,041,France,Data Science,4,98,70,149,13,47,88,82870
+030,Kevin Taylor,004,UK,Data Science,6,88,60,195,14,38,71,83896
+031,Quinn Martin,035,UK,Data Analysis,9,71,80,179,10,50,77,90005
+032,Laura Lee,206,USA,Data Engineering,15,85,91,148,20,47,83,112887
+033,Bob Lee,271,USA,Data Science,3,96,70,55,26,37,83,78953
+034,Laura Miller,004,Germany,BI & Analytics,13,76,65,135,7,40,72,103159
+035,Fiona Moore,000,USA,Machine Learning,1,91,90,103,25,43,91,72517
+036,Xander Perez,423,India,Data Science,1,74,100,52,5,40,85,67893
+037,George Gonzalez,426,Australia,BI & Analytics,1,64,93,68,12,47,73,65897
+038,Xander Moore,423,India,Data Science,3,63,73,149,5,47,64,73395
+039,John Gonzalez,271,Canada,Data Engineering,14,84,80,105,13,38,85,106852
+040,Alice White,340,India,Machine Learning,4,68,82,127,23,35,79,73668
+041,George White,000,Canada,Machine Learning,6,68,64,83,24,50,66,81660
+042,Victor Martinez,380,Japan,Machine Learning,3,61,78,153,8,39,64,71038
+043,Yara Miller,355,Germany,Data Engineering,6,69,70,180,8,43,73,81424
+044,Charlie Jones,495,Germany,Data Engineering,14,65,85,48,27,48,76,106274
+045,Victor Anderson,423,Germany,BI & Analytics,3,80,94,46,8,36,90,75722
+046,Ivan Brown,495,Germany,Data Analysis,11,83,91,141,11,44,91,100804
+047,Xander Thomas,091,India,Data Engineering,10,86,98,179,6,38,88,98586
+048,George Brown,206,Canada,Data Engineering,5,96,83,188,15,38,94,84539
+049,Hannah Lee,085,France,Data Science,12,79,72,64,8,47,75,102524
+050,Yara Martin,355,Japan,BI & Analytics,2,93,74,127,30,41,85,75725
+051,Hannah Rodriguez,426,Japan,Data Science,13,80,72,74,16,39,71,103598
+052,Bob Williams,488,Australia,Data Analysis,5,60,95,130,17,37,77,77979
+053,Zack Davis,502,Australia,Data Engineering,14,65,81,54,17,41,73,105462
+054,Nina Hernandez,041,France,Data Engineering,8,89,66,117,10,38,75,90730
+055,Victor Brown,065,Japan,Data Engineering,2,60,66,199,20,37,62,68104
+056,Kevin Davis,495,Australia,Machine Learning,11,88,82,78,14,35,81,101972
+057,Victor Jones,222,USA,Data Analysis,9,96,67,110,23,46,81,94224
+058,Laura Taylor,199,UK,Machine Learning,13,75,83,56,30,47,82,103044
+059,Oscar Garcia,085,India,Data Analysis,10,67,63,90,19,39,64,92560
+060,Ethan Williams,381,Germany,Machine Learning,1,64,81,127,5,39,69,66834
+061,Bob Miller,206,UK,Machine Learning,4,94,61,48,29,39,72,80866
+062,Ivan Johnson,495,France,BI & Analytics,3,66,100,98,17,47,80,71305
+063,Ivan Davis,222,India,Data Engineering,7,100,70,151,18,39,88,91879
+064,Hannah Lopez,041,UK,Data Engineering,15,61,75,95,30,38,72,105767
+065,Xander Davis,000,USA,BI & Analytics,12,62,93,82,19,45,82,97268
+066,Michael Smith,340,Japan,Data Science,6,100,98,46,13,36,102,87770
+067,Jane Smith,426,Australia,Data Analysis,9,86,66,81,22,38,71,93049
+068,Zack Taylor,085,Australia,Data Science,1,84,90,191,8,44,84,68409
+069,Rose Harris,065,USA,Data Analysis,7,91,93,154,15,36,91,88971
+070,Fiona Jones,380,Germany,Data Engineering,5,88,66,68,11,44,78,84343
+071,Hannah Anderson,271,Australia,Data Science,5,91,88,166,20,49,87,83500
+072,Bob Brown,206,Australia,Data Science,2,65,94,197,29,47,84,70486
+073,Zack Davis,004,India,BI & Analytics,6,89,98,73,9,44,97,84768
+074,Rose Lee,381,UK,Data Science,8,100,98,119,16,39,97,94159
+075,Laura Miller,423,USA,BI & Analytics,9,62,100,158,23,43,83,90218
+076,Bob Perez,495,Australia,Data Analysis,4,67,73,190,17,36,66,74891
+077,Bob Williams,001,USA,Machine Learning,14,99,64,178,23,45,85,110184
+078,Ivan Moore,502,USA,Data Science,12,68,70,110,6,46,70,98925
+079,Xander Davis,206,UK,BI & Analytics,15,64,60,106,18,40,67,106468
+080,Oscar Jones,041,USA,Data Science,15,80,79,89,21,48,76,109079
+081,Charlie Miller,091,UK,Data Engineering,7,69,72,142,25,48,70,84873
+082,Jane Wilson,206,Australia,BI & Analytics,13,65,72,82,8,40,69,103543
+083,Laura Hernandez,041,UK,Data Science,4,60,76,139,27,38,68,74767
+084,Diana Jackson,426,Germany,Machine Learning,10,84,79,122,26,48,76,95355
+085,Ethan Thompson,000,UK,Data Analysis,13,83,96,50,26,48,87,107017
+086,Hannah Thompson,488,Japan,Data Analysis,4,89,85,50,9,49,82,78100
+087,Samuel Brown,001,Germany,BI & Analytics,14,96,76,184,29,48,85,112893
+088,Julia Wilson,380,India,Data Engineering,10,67,60,100,24,42,68,94658
+089,Fiona Lee,340,Canada,Data Science,14,98,70,101,15,42,85,113465
+090,Ethan Jones,206,Australia,Machine Learning,10,84,89,87,16,39,85,97095
+091,Paula Miller,000,UK,Data Engineering,1,97,100,156,16,35,101,70676
+092,Ethan Taylor,001,USA,Data Engineering,6,90,68,81,20,48,76,86074
+093,Samuel Lopez,065,France,BI & Analytics,13,66,81,123,15,42,69,101034
+094,Nina Smith,381,India,Data Engineering,7,83,93,91,16,43,90,87371
+095,Samuel Lee,502,France,Machine Learning,14,80,91,99,7,48,86,108350
+096,Oscar Davis,206,Germany,BI & Analytics,10,84,62,193,17,44,72,96007
+097,Yara Wilson,222,UK,Data Science,4,67,75,62,11,36,75,76398
+098,Bob Brown,004,Australia,Data Science,10,83,82,64,24,45,80,96348
+099,Quinn Wilson,091,Canada,BI & Analytics,12,82,81,49,29,45,77,102262
+100,Kevin Hernandez,091,Australia,BI & Analytics,8,93,90,109,27,39,92,94017
+101,Xander Taylor,206,Germany,Data Engineering,8,67,87,159,10,45,75,86824
+102,John Martin,085,Germany,Data Science,4,76,73,146,5,37,76,77746
+103,Charlie Davis,423,USA,Machine Learning,15,94,81,125,11,38,89,112578
+104,Michael Garcia,381,Japan,Data Engineering,14,70,60,143,10,38,61,107834
+105,Fiona Miller,340,India,Machine Learning,6,63,99,195,25,41,78,82364
+106,Oscar Martinez,271,India,Machine Learning,4,65,89,42,8,40,73,76983
+107,Fiona Jones,495,France,Machine Learning,14,98,86,138,19,35,96,111450
+108,Paula Gonzalez,488,Germany,Data Engineering,12,62,60,104,8,43,60,99248
+109,Alice Johnson,004,Australia,Machine Learning,4,94,81,184,7,47,92,80895
+110,Charlie Moore,199,Australia,Data Science,12,83,95,193,22,50,88,101791
+111,Quinn Perez,502,Canada,Data Engineering,14,84,69,50,16,37,73,108000
+112,Tina Taylor,065,UK,Data Engineering,4,83,95,45,8,45,87,80245
+113,Kevin Thompson,041,UK,Machine Learning,15,99,99,139,20,43,97,116670
+114,Bob Wilson,495,USA,BI & Analytics,2,71,85,176,12,38,79,70418
+115,Laura Rodriguez,206,Australia,BI & Analytics,10,79,86,146,15,50,77,97312
+116,Kevin Lee,381,Australia,Data Engineering,9,87,99,190,13,40,89,95984
+117,Oscar Perez,004,India,Data Engineering,5,84,75,184,16,47,84,83501
+118,Charlie Jones,222,UK,Data Analysis,10,69,79,54,21,48,71,92865
+119,George Jones,065,Germany,BI & Analytics,11,63,90,59,8,43,71,95217
+120,Ivan White,271,France,Machine Learning,6,75,100,49,17,43,85,83933
+121,George Smith,502,Australia,Data Engineering,14,93,86,118,12,45,88,110268
+122,Ivan Garcia,271,Germany,Machine Learning,9,95,86,110,15,42,93,97272
+123,Ivan Harris,001,Canada,Machine Learning,8,71,75,192,14,36,68,88002
+124,John Jackson,340,India,Machine Learning,11,69,63,199,14,45,71,96301
+125,Michael Thompson,426,Canada,BI & Analytics,13,65,64,193,30,38,68,102641
+126,Quinn Davis,085,USA,Data Analysis,7,73,79,54,17,47,76,86974
+127,Quinn Taylor,091,USA,Data Science,6,90,74,126,30,47,86,84355
+128,Yara Martinez,035,France,Data Science,11,95,73,145,5,42,81,101353
+129,Paula Garcia,222,Japan,Data Science,6,69,66,127,19,48,71,82369
+130,George Rodriguez,199,India,Data Science,13,78,78,89,26,48,79,106373
+131,Laura Brown,004,Canada,Machine Learning,5,65,75,170,21,50,65,76458
+132,Bob Martinez,004,UK,Data Analysis,4,76,71,181,14,40,72,75290
+133,Zack Wilson,035,UK,BI & Analytics,9,79,68,200,15,40,71,94269
+134,Wendy Jones,091,Germany,Data Engineering,9,81,91,71,10,48,83,93345
+135,John Perez,340,UK,BI & Analytics,6,80,61,99,17,43,66,82360
+136,Bob Thompson,488,India,Data Analysis,12,86,89,158,26,35,82,101555
+137,Samuel Wilson,041,India,BI & Analytics,13,80,97,64,12,36,84,103876
+138,Oscar Davis,041,India,Machine Learning,11,90,86,84,26,48,84,99158
+139,Rose Hernandez,206,Germany,Data Engineering,4,69,83,193,26,35,79,74053
+140,Julia Hernandez,423,Australia,Data Engineering,4,94,88,199,19,46,92,79022
+141,Nina Davis,206,Australia,Data Engineering,12,67,99,95,23,45,88,99849
+142,Rose Garcia,091,India,Data Analysis,6,74,97,153,29,45,81,82227
+143,Ivan Brown,035,Australia,Data Science,15,94,89,41,18,46,95,115490
+144,Ivan Moore,091,USA,Data Engineering,14,94,74,136,26,50,81,111560
+145,Paula Rodriguez,381,USA,BI & Analytics,12,66,97,114,9,46,80,100248
+146,Wendy Rodriguez,041,Canada,BI & Analytics,3,84,61,93,27,50,68,75826
+147,Diana White,041,France,Data Engineering,5,84,91,54,6,45,91,82218
+148,Oscar Lopez,041,Japan,Data Science,3,65,62,130,6,49,68,70492
+149,Charlie Lopez,206,USA,Machine Learning,7,60,89,117,27,38,71,83908
+150,Fiona Rodriguez,206,France,BI & Analytics,6,63,87,113,14,39,76,79599
+151,Laura Miller,271,Canada,Data Engineering,4,97,90,124,12,47,90,81940
+152,Rose Smith,426,USA,Data Analysis,4,65,75,146,21,40,74,75843
+153,Paula Rodriguez,222,India,Data Analysis,12,69,71,50,30,43,66,101381
+154,Oscar Taylor,206,Canada,Machine Learning,11,63,95,98,10,36,75,95264
+155,Yara Rodriguez,271,Japan,BI & Analytics,6,95,87,80,19,47,95,86978
+156,Michael White,426,Japan,BI & Analytics,3,63,74,45,25,37,73,69806
+157,Yara Davis,091,India,Data Analysis,10,74,76,121,13,35,70,95013
+158,Samuel Jackson,065,UK,Data Engineering,14,63,64,102,26,45,61,103334
+159,Samuel Taylor,206,UK,Data Science,6,72,72,172,12,40,76,82156
+160,Paula Williams,035,India,BI & Analytics,14,74,60,58,8,48,66,105406
+161,Nina Moore,488,USA,Data Engineering,6,100,77,159,24,41,92,89206
+162,Nina Moore,206,Japan,Data Analysis,15,82,77,119,6,43,74,110774
+163,Samuel Hernandez,222,India,Data Analysis,1,87,67,189,18,38,79,69311
+164,Bob Jones,271,Japan,Data Analysis,9,69,67,111,29,50,64,91930
+165,Paula Johnson,065,Australia,Data Analysis,6,65,88,52,26,37,79,81553
+166,Nina Rodriguez,199,India,Data Science,10,83,98,149,30,37,89,98531
+167,John Moore,426,UK,Data Analysis,2,63,82,92,7,36,71,70208
+168,Hannah Lopez,206,India,Data Engineering,6,89,85,171,15,49,86,85398
+169,Bob Miller,041,France,Data Engineering,5,82,64,187,22,39,69,79409
+170,Wendy Williams,004,France,Data Science,6,77,78,84,24,37,81,81740
+171,Tina Lee,355,USA,Data Analysis,8,88,71,72,7,43,80,93365
+172,Alice Thompson,085,India,Data Engineering,7,81,90,174,17,41,90,85262
+173,Xander Jackson,085,Germany,Machine Learning,12,84,94,135,7,45,94,103480
+174,Tina Martin,065,Australia,Data Analysis,1,86,81,107,5,44,87,69615
+175,Bob Brown,001,USA,Data Science,1,84,81,46,8,40,83,68600
+176,Charlie Williams,340,UK,Machine Learning,7,88,86,47,23,42,88,89840
+177,Samuel White,199,Australia,Data Engineering,13,76,81,81,7,44,75,103124
+178,Nina Anderson,340,Japan,Data Science,1,75,86,166,26,37,81,67439
+179,Nina Smith,085,France,BI & Analytics,15,92,92,101,16,45,91,113090
+180,Kevin Lee,271,Japan,Machine Learning,11,98,97,196,21,50,102,102657
+181,Jane Moore,001,Germany,Data Engineering,4,98,71,69,10,42,83,82576
+182,Yara White,423,Australia,Data Science,1,97,100,102,7,36,98,71847
+183,Bob Anderson,381,Germany,Data Engineering,13,80,73,137,9,39,77,103989
+184,Ethan Williams,222,Japan,Machine Learning,1,62,78,190,22,35,75,64516
+185,Charlie Lopez,065,USA,Machine Learning,9,63,79,162,5,37,69,89207
+186,Laura Rodriguez,502,Germany,Data Analysis,10,97,91,145,27,36,98,97794
+187,Nina Johnson,085,Canada,Machine Learning,15,66,66,164,23,49,71,110117
+188,Fiona Williams,502,India,Data Engineering,15,76,62,115,26,40,66,110946
+189,Laura Martinez,206,Japan,Data Science,8,65,66,128,9,48,64,86546
+190,Kevin Hernandez,488,Australia,Data Science,5,87,73,97,21,39,78,81794
+191,Yara Anderson,222,Australia,Data Engineering,12,68,93,196,7,47,85,99754
+192,Tina Moore,502,Canada,Data Science,10,77,97,111,17,36,84,95546
+193,Charlie Gonzalez,004,Japan,Machine Learning,10,71,71,131,28,47,72,94969
+194,Ethan Gonzalez,001,Germany,Data Engineering,9,86,64,86,28,43,73,94317
+195,Tina Martinez,502,France,Data Science,11,65,70,84,6,50,66,96455
+196,Zack Perez,495,Japan,BI & Analytics,12,72,72,43,26,38,77,98748
+197,Alice Lopez,340,Australia,Data Analysis,2,79,76,177,28,37,74,73383
+198,Quinn Williams,222,Japan,BI & Analytics,2,80,96,196,19,35,88,70084
+199,Bob Martinez,000,India,Data Science,7,97,60,73,21,36,77,92398
+200,Yara Rodriguez,035,France,BI & Analytics,8,75,78,198,21,50,72,88610
+201,John Martin,423,Australia,Data Engineering,11,84,75,44,6,45,84,100192
+202,Xander Hernandez,222,Canada,BI & Analytics,9,99,87,146,27,46,91,95779
+203,George Perez,199,Canada,Data Engineering,6,81,92,176,9,50,89,82252
+204,Wendy Moore,091,Japan,BI & Analytics,11,65,88,110,18,35,71,96323
+205,Julia Brown,199,Japan,Machine Learning,15,69,63,79,10,47,65,108763
+206,Paula Gonzalez,000,UK,Data Analysis,6,98,60,119,24,44,81,86720
+207,Julia Martinez,380,Canada,Machine Learning,11,61,90,148,25,46,73,95543
+208,Victor Smith,199,Japan,Machine Learning,12,71,88,60,15,45,77,101057
+209,Laura Gonzalez,065,USA,Data Analysis,8,62,88,72,9,37,79,88017
+210,Alice Johnson,488,Japan,Data Engineering,7,88,96,124,9,40,87,90580
+211,Wendy Thompson,065,USA,Machine Learning,12,98,100,88,17,49,94,103956
+212,Quinn Hernandez,035,India,Data Science,14,80,64,113,11,37,75,107969
+213,Samuel Johnson,502,Australia,Machine Learning,15,97,96,131,26,48,101,112797
+214,Fiona Lopez,340,Japan,BI & Analytics,15,63,62,125,11,37,62,108194
+215,Rose Perez,488,UK,Data Analysis,9,94,85,133,20,41,87,95802
+216,Kevin Williams,085,India,Data Science,9,93,73,59,13,41,83,93943
+217,Tina Gonzalez,380,Germany,Data Analysis,13,66,98,139,20,35,84,104200
+218,Julia Hernandez,426,Canada,Data Analysis,11,97,100,167,19,45,103,103465
+219,Diana Jones,488,Australia,BI & Analytics,5,93,74,93,25,38,87,83062
+220,Ivan Jackson,199,India,Data Engineering,8,69,98,198,23,46,86,89433
+221,Paula Lopez,199,USA,BI & Analytics,9,71,96,136,14,39,84,92725
+222,Alice Smith,000,Germany,Data Science,10,60,68,99,21,44,67,91185
+223,John Perez,001,France,Data Engineering,8,73,90,71,18,46,84,90386
+224,Rose Thomas,423,India,Data Science,4,80,83,150,16,42,84,78826
+225,Oscar Johnson,035,UK,Data Engineering,7,95,63,44,27,37,75,88106
+226,Paula Jackson,426,Germany,BI & Analytics,8,72,88,164,12,35,82,89990
+227,Yara Garcia,381,UK,Machine Learning,11,97,84,147,7,47,88,102713
+228,Samuel Thomas,222,France,BI & Analytics,13,80,68,44,6,49,71,103682
+229,Ethan Williams,222,UK,Data Science,12,94,98,57,13,35,92,104120
+230,George Williams,355,Canada,Data Engineering,13,61,76,185,26,49,72,101465
+231,Laura Hernandez,004,Japan,BI & Analytics,5,90,62,63,10,40,73,81915
+232,George Wilson,495,Germany,BI & Analytics,9,74,99,122,8,40,86,90754
+233,Jane Moore,206,Japan,Data Engineering,10,60,68,180,29,45,61,91377
+234,Wendy Davis,380,France,Machine Learning,14,87,63,125,24,39,78,108427
+235,Charlie Smith,502,Japan,Data Science,3,81,76,171,19,36,73,74411
+236,Quinn Davis,340,Japan,Data Analysis,6,80,80,122,8,48,84,84325
+237,Charlie Davis,355,Japan,Data Engineering,6,68,74,158,26,44,75,80492
+238,Paula Miller,199,Australia,Data Engineering,14,81,74,119,21,41,79,108703
+239,Nina Perez,206,Japan,BI & Analytics,8,66,61,151,23,38,61,85209
+240,Laura Moore,085,France,Data Engineering,5,95,60,47,6,50,76,83989
+241,Jane Davis,271,USA,Data Engineering,9,92,94,153,29,38,92,96376
+242,Xander Brown,355,Australia,Machine Learning,4,68,62,135,7,50,70,74645
+243,Tina Davis,340,Australia,Data Analysis,11,75,75,178,14,43,70,96335
+244,Ethan Smith,495,USA,Data Science,1,90,94,177,22,36,91,69348
+245,Xander Lopez,199,France,Machine Learning,3,91,90,147,17,50,95,78075
+246,Charlie Brown,495,Australia,BI & Analytics,6,84,73,152,13,50,83,86304
+247,Yara Perez,041,Australia,Data Engineering,9,85,86,178,9,50,82,93317
+248,Victor Davis,085,Canada,Data Engineering,1,77,69,74,16,40,76,67063
+249,Ethan Anderson,271,Australia,BI & Analytics,14,63,91,98,8,35,79,105182
+250,Bob Rodriguez,035,UK,Machine Learning,10,94,92,169,16,35,88,99538
+251,Zack Lopez,001,UK,Data Science,1,65,86,198,16,42,73,66642
+252,Wendy Martinez,091,India,Data Analysis,13,73,63,57,22,44,67,105519
+253,Alice Johnson,085,Australia,Data Science,6,97,92,188,17,46,89,87190
+254,Kevin Moore,091,Canada,BI & Analytics,3,96,88,169,30,36,94,78370
+255,Zack Moore,199,UK,Machine Learning,14,96,81,181,20,48,92,110527
+256,Victor Moore,488,UK,Data Engineering,12,69,61,146,6,47,61,99996
+257,Michael Gonzalez,495,Germany,Data Science,13,67,77,120,5,46,69,103073
+258,Charlie Thomas,085,India,BI & Analytics,15,86,77,140,25,50,79,110332
+259,Julia Thomas,004,Japan,Data Engineering,15,81,97,153,22,38,91,112479
+260,Zack Thompson,381,Japan,Machine Learning,4,80,70,142,7,41,75,78664
+261,Alice Martinez,001,Australia,Data Science,8,97,84,118,17,45,93,92755
+262,George Taylor,426,India,Machine Learning,14,84,97,145,6,41,87,109477
+263,Michael Davis,222,India,Data Analysis,13,60,81,43,9,48,65,101496
+264,Michael Miller,423,Australia,Data Engineering,8,91,64,79,15,35,74,92441
+265,Oscar White,488,Germany,Data Engineering,11,91,62,78,19,47,79,100169
+266,Laura Smith,423,UK,BI & Analytics,11,71,65,130,7,38,73,97870
+267,Kevin Gonzalez,355,UK,Machine Learning,10,75,76,79,9,43,72,95019
+268,Rose Moore,271,UK,Data Engineering,10,87,72,60,18,46,77,98271
+269,Michael White,355,Japan,Data Science,2,95,60,153,27,48,82,73086
+270,Xander Lopez,488,France,BI & Analytics,2,93,61,141,7,39,75,75244
+271,Fiona Jones,000,Australia,BI & Analytics,1,85,100,76,30,43,96,70634
+272,Kevin Hernandez,380,Canada,Data Analysis,4,100,83,162,20,47,89,80594
+273,George Johnson,199,Japan,BI & Analytics,12,72,77,120,26,39,73,99957
+274,John White,271,UK,Data Analysis,8,92,94,135,21,41,93,93460
+275,Zack Johnson,271,Australia,Data Engineering,5,88,77,95,14,35,80,83038
+276,Laura Brown,423,Australia,Machine Learning,3,68,65,85,21,42,66,71552
+277,Tina Smith,423,Japan,Data Science,7,85,76,146,7,40,79,87033
+278,Quinn Lopez,381,Australia,BI & Analytics,12,74,100,134,7,47,83,100354
+279,Paula Lopez,001,Canada,Data Analysis,6,96,91,73,28,43,91,89107
+280,Yara Taylor,271,France,BI & Analytics,1,81,60,184,13,50,68,68222
+281,Diana Thomas,041,Canada,Data Engineering,14,90,87,185,20,42,83,109529
+282,Kevin Hernandez,381,France,Data Engineering,1,95,89,90,9,41,96,71899
+283,Xander Gonzalez,085,Japan,BI & Analytics,13,73,64,152,28,36,65,103445
+284,Diana Davis,206,USA,Data Science,12,76,99,151,13,37,91,101076
+285,Charlie Martin,041,USA,Data Science,7,73,78,109,23,43,74,86487
+286,Wendy Johnson,206,USA,Machine Learning,11,63,79,47,14,40,73,94973
+287,Yara Jackson,381,Canada,Data Science,10,73,73,74,30,35,73,94287
+288,Wendy Smith,199,UK,Data Science,9,82,80,65,27,40,85,91747
+289,Samuel Moore,199,Canada,Data Analysis,15,73,87,76,25,45,75,110771
+290,Julia Martin,271,Canada,BI & Analytics,4,89,65,85,8,48,81,77930
+291,Jane Hernandez,206,USA,Data Analysis,9,81,90,62,7,37,87,93744
+292,Xander Miller,199,Australia,Data Engineering,3,65,65,53,16,50,62,71606
+293,Quinn Martinez,426,Australia,BI & Analytics,14,96,75,106,13,46,89,112877
+294,Fiona Moore,423,Germany,BI & Analytics,10,76,68,132,30,40,72,94679
+295,Ivan Perez,065,Japan,Data Engineering,7,81,95,191,12,38,86,88005
+296,Jane Moore,426,France,Data Engineering,3,87,73,106,9,35,82,74824
+297,Yara Brown,271,Germany,Data Engineering,4,84,94,184,15,40,92,78187
+298,Alice White,065,UK,Data Science,4,65,80,196,9,39,68,76659
+299,Hannah Jones,041,Germany,Data Engineering,15,92,93,155,23,45,93,115012
+300,Charlie Williams,091,Japan,Data Science,14,69,77,143,18,42,73,106606
+301,Ivan Hernandez,085,Japan,Data Analysis,3,89,67,81,15,35,82,77523
+302,Tina Miller,488,France,BI & Analytics,12,97,68,151,21,43,78,105176
+303,Xander White,004,India,BI & Analytics,5,85,63,95,23,46,74,81410
+304,Yara Moore,502,Australia,Data Analysis,10,79,93,179,15,37,84,95239
+305,Yara Miller,001,USA,Data Science,1,92,87,189,21,43,84,72065
+306,Tina Lopez,004,Canada,Data Engineering,15,81,73,122,12,36,72,112122
+307,Diana Thomas,340,USA,Data Engineering,5,98,62,161,23,48,85,85959
+308,Alice White,222,USA,BI & Analytics,6,76,81,179,26,37,80,82384
+309,Paula Miller,423,Germany,BI & Analytics,10,71,69,197,22,39,72,93739
+310,Zack Brown,065,Australia,Machine Learning,15,97,84,93,15,38,88,115241
+311,Michael Gonzalez,502,India,Machine Learning,2,86,100,127,8,46,94,73522
+312,Diana Wilson,423,Germany,Data Analysis,13,71,83,157,20,43,81,102779
+313,Charlie Thompson,085,Canada,Data Analysis,8,80,93,47,20,46,84,88359
+314,Paula Anderson,091,USA,Data Science,10,95,65,73,6,46,83,99691
+315,Oscar Jones,091,Canada,Data Engineering,10,85,90,79,5,40,90,97604
+316,Hannah Perez,001,Australia,Machine Learning,2,82,81,168,9,43,82,72445
+317,Victor Jackson,035,Japan,Data Science,2,80,74,95,12,40,77,71278
+318,Kevin Miller,041,USA,Data Analysis,6,76,91,114,6,38,83,83686
+319,John Thomas,426,Australia,Machine Learning,7,76,89,100,29,45,77,84919
+320,John Perez,065,India,BI & Analytics,9,87,80,137,18,46,85,96015
+321,Ivan Williams,381,Germany,Data Analysis,4,62,85,123,11,49,72,75547
+322,Hannah Thomas,222,Canada,BI & Analytics,15,65,79,144,8,35,67,108100
+323,Yara Jones,085,UK,Data Engineering,12,90,89,50,22,46,93,105642
+324,Jane Miller,380,India,Machine Learning,9,81,69,105,17,36,75,92673
+325,Alice Davis,340,USA,Data Analysis,15,63,68,58,6,46,60,107790
+326,Bob Moore,004,Australia,Data Engineering,13,93,62,142,29,36,73,109205
+327,Yara Perez,488,India,Data Analysis,12,85,64,49,24,48,73,101281
+328,Ethan Smith,004,Germany,Data Science,10,65,76,117,27,37,72,91892
+329,Kevin Martin,381,Canada,Machine Learning,11,76,74,65,5,49,76,98082
+330,Nina Martin,091,USA,Data Analysis,10,65,91,69,18,49,74,92162
+331,Victor Davis,340,UK,Data Engineering,4,61,62,86,26,49,63,73568
+332,Yara Harris,495,Australia,BI & Analytics,4,67,66,69,8,47,64,76810
+333,Diana Anderson,423,USA,Machine Learning,1,62,68,181,21,42,61,64994
+334,Quinn Wilson,426,Canada,BI & Analytics,13,86,98,105,11,50,95,104728
+335,John Rodriguez,206,France,BI & Analytics,1,83,98,168,5,39,86,69479
+336,Laura White,426,USA,Data Analysis,4,90,78,132,23,38,88,81289
+337,Rose Brown,035,Japan,Machine Learning,13,61,70,77,20,38,64,101451
+338,Michael Brown,199,Japan,Data Analysis,10,80,64,169,30,48,70,94428
+339,Nina Moore,426,UK,Data Engineering,13,77,94,73,11,39,89,104354
+340,Yara Jones,000,USA,Data Science,10,93,93,41,15,37,94,98191
+341,Laura Brown,085,Germany,Data Engineering,13,79,68,194,29,50,68,104613
+342,John Garcia,271,Germany,Data Analysis,8,99,66,93,24,50,86,95086
+343,Oscar Martin,206,Canada,Data Science,13,92,64,73,13,38,74,106384
+344,Jane Martinez,004,UK,Data Engineering,13,78,93,148,7,48,85,105887
+345,Tina Martinez,340,Japan,Data Science,3,76,93,70,30,47,88,74442
+346,Michael Davis,380,USA,Data Science,14,69,74,177,29,37,70,105744
+347,Laura Anderson,041,India,Data Science,9,63,79,62,21,45,71,90502
+348,Zack Garcia,495,USA,Data Analysis,15,83,74,83,22,37,75,110962
+349,Quinn Lopez,206,USA,Data Analysis,1,89,81,55,11,41,80,68800
+350,Alice Lee,423,UK,Machine Learning,14,74,77,126,15,41,73,108600
+351,Julia Jackson,085,Germany,Data Science,4,95,76,72,27,40,83,82693
+352,Bob Davis,423,France,Data Science,13,69,60,105,26,39,63,102276
+353,Wendy Gonzalez,065,India,Machine Learning,12,66,73,102,23,48,71,99233
+354,Oscar Jackson,085,Canada,BI & Analytics,15,68,68,138,30,40,70,109411
+355,Yara Anderson,000,France,BI & Analytics,10,90,74,108,14,42,87,99340
+356,Fiona Thompson,271,Australia,Data Analysis,2,92,96,148,19,36,98,74006
+357,Wendy Lee,271,Australia,Machine Learning,12,91,60,155,8,37,79,102249
+358,Xander Martinez,199,India,BI & Analytics,2,74,88,196,19,49,85,72440
+359,Paula Taylor,423,France,BI & Analytics,7,83,92,123,25,48,85,87113
+360,Paula Thomas,001,UK,Data Science,3,71,70,170,30,40,74,71970
+361,Quinn Thomas,199,Canada,Data Science,2,62,83,166,24,40,69,67349
+362,Bob Johnson,222,Germany,Data Science,5,63,70,60,13,45,67,79150
+363,Diana Brown,085,Japan,BI & Analytics,8,74,73,169,29,50,77,88633
+364,Charlie Miller,004,Australia,BI & Analytics,4,60,98,100,12,49,82,73739
+365,Alice Smith,381,Japan,Data Science,6,76,68,43,25,47,68,84300
+366,Julia White,206,Japan,Data Science,4,92,97,172,19,45,99,79002
+367,Tina Johnson,035,Australia,Data Analysis,8,94,90,72,18,41,92,90945
+368,John White,340,USA,Data Engineering,3,75,60,74,16,45,64,75109
+369,Kevin Martin,426,Canada,Data Engineering,15,88,62,185,24,40,74,112786
+370,Victor Moore,495,India,BI & Analytics,6,64,89,172,24,38,77,82380
+371,Oscar Lee,035,Canada,Data Analysis,10,92,87,87,28,41,85,98332
+372,Fiona Taylor,035,India,Machine Learning,15,68,83,67,6,48,77,108248
+373,Kevin Moore,091,Japan,Data Engineering,4,67,100,101,15,50,87,74144
+374,Ivan Williams,340,USA,Machine Learning,8,97,95,159,15,50,93,91771
+375,Nina Hernandez,035,France,Data Science,8,74,92,133,11,40,85,87579
+376,Bob Jackson,426,UK,BI & Analytics,12,82,61,151,27,39,70,103494
+377,Kevin Garcia,035,Australia,Data Analysis,15,70,73,69,10,49,68,110374
+378,Charlie Smith,206,Germany,Data Engineering,5,98,71,41,26,35,84,84884
+379,Bob Lopez,495,Canada,Data Science,10,79,84,71,7,39,85,97795
+380,John Hernandez,000,India,Data Analysis,3,90,69,56,18,43,83,75288
+381,Nina Jones,000,USA,Data Science,5,86,78,142,17,35,84,81947
+382,Quinn Jackson,091,USA,BI & Analytics,2,79,78,165,27,50,77,71497
+383,John Brown,004,Canada,BI & Analytics,1,69,89,104,7,43,81,64850
+384,Bob Davis,355,Australia,Machine Learning,1,86,84,112,29,35,84,70343
+385,Zack Lee,041,Germany,Data Science,6,65,98,91,22,36,80,80789
+386,Julia Moore,041,Canada,Data Analysis,10,88,89,46,25,44,87,98545
+387,Diana Harris,041,Canada,Data Engineering,6,82,85,118,24,42,87,82548
+388,Kevin Williams,041,Japan,BI & Analytics,11,82,79,160,9,50,80,98573
+389,Michael Martinez,222,Australia,Data Science,13,79,85,98,8,39,80,104730
+390,Victor Perez,222,France,Machine Learning,10,77,98,66,15,36,83,93705
+391,Rose Taylor,381,USA,BI & Analytics,13,94,92,113,25,43,90,108971
+392,Ivan Perez,423,India,Data Engineering,11,81,74,83,14,44,72,100994
+393,Alice Harris,001,India,BI & Analytics,10,93,88,141,20,41,94,97543
+394,Nina Brown,355,Canada,BI & Analytics,9,82,95,185,11,38,89,94548
+395,Zack Rodriguez,502,Japan,Data Engineering,2,76,73,160,28,48,72,71749
+396,Oscar Brown,091,Germany,BI & Analytics,11,65,65,97,13,43,66,97698
+397,Laura Thompson,065,France,Machine Learning,15,94,67,136,6,46,79,114454
+398,Xander Miller,001,France,Machine Learning,10,92,74,162,29,45,80,100141
+399,Michael Hernandez,206,Canada,Data Engineering,10,78,98,133,16,43,87,95881
+400,Diana Garcia,004,USA,Data Analysis,9,78,67,49,25,35,75,92743
+401,Bob Martinez,004,India,Data Engineering,6,85,62,49,22,47,68,86716
+402,Samuel Rodriguez,381,UK,Machine Learning,8,97,74,142,15,42,90,91911
+403,Ethan Garcia,488,Canada,Data Analysis,2,71,98,43,21,35,82,71423
+404,Charlie Jackson,091,Germany,Machine Learning,6,98,63,173,5,49,78,86772
+405,Paula Williams,495,Canada,Data Science,8,80,97,104,7,38,89,88789
+406,Alice Jones,035,Canada,Machine Learning,15,71,70,75,19,41,71,108676
+407,Samuel Smith,085,Japan,BI & Analytics,7,89,76,48,10,38,87,90739
+408,Rose Garcia,091,France,Data Engineering,6,69,85,169,23,39,74,83240
+409,Victor Jackson,426,Canada,Data Science,7,60,83,123,8,39,67,81926
+410,Ivan Jackson,004,UK,Machine Learning,10,99,86,150,7,50,96,98531
+411,Laura Johnson,380,India,Data Engineering,6,73,97,61,9,37,83,82201
+412,Quinn Jones,035,Canada,Data Science,3,90,64,126,6,50,77,78569
+413,Xander Thompson,340,Australia,Data Science,15,78,77,91,25,38,81,110753
+414,Julia Gonzalez,035,Germany,Data Engineering,13,90,82,151,20,45,83,108850
+415,Zack Jones,426,USA,Data Engineering,14,67,78,157,26,40,75,105844
+416,Alice White,035,UK,Data Analysis,9,63,98,50,24,44,76,89849
+417,Alice Harris,495,France,Data Engineering,10,81,95,149,13,49,84,96057
+418,Wendy Moore,381,Canada,Data Science,10,72,69,150,24,46,71,96281
+419,Kevin Jackson,001,UK,Data Analysis,15,90,60,108,18,39,79,111791
+420,John Miller,001,France,Data Science,2,98,90,103,16,50,92,74350
+421,Rose White,035,Australia,Machine Learning,11,100,97,173,26,47,102,104456
+422,John Davis,495,France,Data Engineering,10,84,78,116,19,41,85,96091
+423,John Rodriguez,000,Germany,Data Analysis,2,89,88,110,24,37,93,74810
+424,Julia Jones,381,UK,Data Engineering,12,88,71,189,17,48,83,104734
+425,Laura Lee,091,Australia,Data Analysis,4,95,85,106,11,37,91,80199
+426,Alice Lopez,000,Germany,BI & Analytics,6,90,64,47,30,45,82,85185
+427,Rose Thompson,091,USA,Data Analysis,12,76,99,117,24,46,91,102406
+428,Hannah Perez,222,France,Data Science,11,65,74,68,25,41,69,95095
+429,Oscar Hernandez,495,Australia,Machine Learning,2,64,75,83,17,43,73,68076
+430,Paula Perez,426,India,Data Analysis,5,100,61,100,18,42,82,84907
+431,Victor Miller,271,France,Data Science,7,93,60,177,25,39,79,91246
+432,Kevin Johnson,488,UK,Data Analysis,15,78,72,134,29,47,79,109014
+433,Hannah Rodriguez,001,France,Machine Learning,10,73,63,161,24,35,65,94999
+434,Charlie Harris,035,Germany,BI & Analytics,5,84,82,159,27,47,78,83244
+435,Fiona White,488,Canada,Data Engineering,3,78,98,54,22,47,87,73588
+436,Bob Williams,381,India,Machine Learning,7,60,98,169,23,46,77,81028
+437,Jane Martinez,426,Germany,Data Analysis,13,72,67,64,19,36,70,101521
+438,Fiona White,035,Germany,Machine Learning,7,99,81,123,24,49,94,89853
+439,Zack Lopez,340,Australia,Data Analysis,10,88,98,57,11,45,92,96390
+440,Quinn Anderson,423,UK,Machine Learning,5,66,72,50,14,46,70,78450
+441,Rose Jackson,199,Canada,Data Engineering,8,65,97,83,22,39,79,87891
+442,Ethan Lee,065,UK,Machine Learning,2,91,90,165,5,38,94,75692
+443,Xander Williams,426,Japan,Data Analysis,13,86,65,108,18,37,80,106726
+444,John Thomas,488,Canada,Data Science,14,83,96,131,26,46,84,108240
+445,Hannah Jackson,426,Germany,Machine Learning,1,62,77,89,29,48,68,66201
+446,Michael Harris,381,Japan,Data Engineering,3,96,66,73,20,38,82,76509
+447,Bob Harris,271,USA,BI & Analytics,11,96,72,93,8,46,81,103046
+448,Quinn Gonzalez,222,Canada,Data Engineering,13,63,77,100,27,36,75,101486
+449,Ivan Jones,488,Australia,Data Engineering,4,83,100,194,12,41,89,80535
+450,Wendy Martinez,004,Germany,Data Engineering,12,79,81,91,12,43,75,100402
+451,George Hernandez,355,France,BI & Analytics,4,62,64,145,22,47,61,73204
+452,Zack Brown,199,Japan,Data Engineering,13,63,79,64,12,38,69,102063
+453,Alice Gonzalez,035,Australia,Data Engineering,4,68,70,163,19,47,69,75744
+454,George Smith,488,UK,Data Engineering,15,96,91,141,19,40,94,115862
+455,Bob Lopez,001,France,Data Engineering,6,66,69,63,11,45,71,80414
+456,Zack Moore,065,Australia,Machine Learning,8,61,95,65,10,45,77,87659
+457,Bob Wilson,426,India,BI & Analytics,2,61,74,70,13,50,64,66625
+458,George Thompson,495,UK,Data Engineering,5,84,62,52,29,39,68,83539
+459,Kevin Taylor,340,USA,Data Engineering,12,87,99,57,13,43,93,103680
+460,Alice Perez,426,UK,Data Science,3,96,69,67,6,42,84,79160
+461,Kevin Moore,355,Japan,Data Engineering,6,85,64,108,19,44,70,83807
+462,Kevin White,199,Canada,Data Engineering,3,91,65,135,22,44,76,77343
+463,Tina Gonzalez,423,UK,BI & Analytics,9,100,93,54,10,49,98,98498
+464,Oscar Gonzalez,199,Canada,BI & Analytics,3,71,60,185,24,46,67,74126
+465,Victor Harris,035,USA,Data Engineering,14,91,84,40,12,37,89,109259
+466,Alice Smith,085,Japan,Data Analysis,4,85,67,119,20,45,76,78509
+467,Yara Perez,199,Canada,Data Engineering,10,70,73,131,12,43,67,94477
+468,Bob Lee,085,Japan,Data Engineering,10,93,79,174,27,36,82,97391
+469,Michael Martin,199,USA,Data Analysis,12,91,90,112,22,38,93,106106
+470,Tina Thompson,199,India,Machine Learning,6,97,67,46,21,50,81,86077
+471,Yara Hernandez,502,India,Machine Learning,15,98,93,131,15,42,99,114786
+472,Tina Wilson,004,USA,Data Science,10,88,84,143,12,35,87,98092
+473,Nina Taylor,035,Germany,Data Science,11,63,81,160,12,46,74,93869
+474,Ivan Lopez,222,France,BI & Analytics,13,82,61,90,30,36,66,105295
+475,Wendy Thomas,381,UK,Data Analysis,11,88,88,119,16,46,91,100823
+476,Kevin Rodriguez,488,USA,Data Science,15,81,71,183,14,39,73,109425
+477,George Martinez,502,Germany,Machine Learning,3,89,81,119,23,36,85,75718
+478,Laura Brown,426,Japan,Data Engineering,12,91,75,71,16,45,88,104953
+479,Ivan Lopez,488,Australia,Machine Learning,10,65,89,52,5,43,78,94766
+480,Quinn Smith,355,Canada,Data Engineering,6,63,95,127,30,41,74,80911
+481,Jane Garcia,199,Japan,Machine Learning,1,73,79,149,16,41,74,66282
+482,Yara White,426,Australia,BI & Analytics,10,79,80,41,11,40,76,97137
+483,Zack Wilson,001,USA,Machine Learning,7,91,63,105,27,44,82,87797
+484,Michael Martin,222,UK,Data Science,12,74,69,121,24,41,73,100980
+485,Hannah Anderson,502,USA,Data Engineering,2,64,72,144,9,36,73,69027
+486,Wendy Thompson,199,Japan,Data Engineering,11,95,67,139,5,45,86,100171
+487,Wendy Hernandez,488,USA,Machine Learning,8,63,62,186,17,47,63,86886
+488,Hannah Davis,000,Germany,BI & Analytics,14,98,88,153,24,40,97,112930
+489,Paula Wilson,423,France,Data Analysis,5,74,91,179,9,50,79,81099
+490,Jane Jackson,004,Canada,Data Science,3,93,91,46,27,50,91,76894
+491,Samuel Taylor,271,France,Data Analysis,1,80,88,109,19,37,87,68084
+492,Kevin Thompson,488,Japan,Data Science,13,81,97,142,29,38,84,106838
+493,Jane Harris,199,Germany,BI & Analytics,2,85,70,167,25,49,79,71520
+494,John Anderson,001,UK,Data Engineering,1,72,79,127,16,50,76,66217
+495,George Williams,000,USA,Data Science,12,85,83,99,24,38,80,102152
+496,Nina Moore,380,Germany,Data Science,8,72,82,134,22,50,78,88308
+497,Diana Lee,041,Germany,Data Engineering,13,73,62,186,22,47,62,101638
+498,Hannah Hernandez,035,Canada,BI & Analytics,13,98,62,57,27,43,75,108090
+499,Hannah Lee,423,USA,Machine Learning,13,73,66,85,17,44,70,104274
+500,Kevin Jackson,035,UK,Machine Learning,9,73,100,188,15,37,88,91911
+501,Michael Martinez,340,Germany,Data Science,1,94,72,136,19,44,84,73555
+502,Jane Jackson,000,UK,BI & Analytics,2,96,93,61,26,35,96,76947
+503,Diana Williams,340,India,BI & Analytics,7,66,97,199,15,39,79,85181
+504,Michael Martin,001,USA,Data Engineering,12,97,90,55,21,48,94,106875
+505,Paula Jones,271,UK,Machine Learning,5,68,79,94,26,41,68,78684
+506,John Rodriguez,426,UK,Machine Learning,8,98,91,146,18,49,97,95459
+507,Nina Lopez,041,Australia,Data Science,4,61,77,84,18,46,65,73822
+508,Rose Taylor,222,Canada,BI & Analytics,1,83,64,170,14,45,72,69182
+509,Samuel Davis,423,Australia,BI & Analytics,3,95,87,158,27,35,88,79086
+510,Paula Jones,001,UK,Data Engineering,11,86,80,139,15,35,88,102059
